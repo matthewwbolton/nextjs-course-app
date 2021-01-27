@@ -1,3 +1,5 @@
 import React from "react";
 
-export default () => <h1>Notes</h1>;
+const Notes = () => <h1>Notes Index Path</h1>;
+
+export default Notes;
