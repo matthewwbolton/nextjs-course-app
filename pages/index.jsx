@@ -1,14 +1,16 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-export default ({content}) => (
-  <div sx={{ height: `calc(100vh - 60px)`}}>
-    <div sx={{variant: 'containers.page', display: 'flex', alignItems: 'center', height: '100%'}}>
-      <h1 sx={{fontSize: 8, my: 0}}>{content.title}</h1>
+const IndexPage = () => {
+  return (
+    <div>
+      <h1>Index Page</h1>
+      <Link href="/notes">
+        <a>Notes</a>
+      </Link>
     </div>
-  </div> 
-)
+  );
+};
 
 export async function getStaticProps() {
   return {
@@ -19,3 +21,6 @@ export async function getStaticProps() {
     }
   }
 }
+
+export default IndexPage;
+
