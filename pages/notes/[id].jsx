@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-const Note = () => {
+const Note = ({note}) => {
   const router = useRouter()
   const { id }= router.query
 
