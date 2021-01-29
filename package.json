@@ -13,7 +13,7 @@
     "@theme-ui/presets": "^0.3.5",
     "body-parser": "^1.19.0",
     "dotenv-load": "^2.0.0",
-    "next": "^10.0.5",
+    "next": "^10.0.6",
     "next-connect": "^0.9.1",
     "next-env": "^1.1.1",
     "react": "^17.0.1",

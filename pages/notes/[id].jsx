@@ -2,9 +2,9 @@ import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-const Note = () => {
-  const router = useRouter();
-  const { id } = router.query;
+const Note = ({note}) => {
+  const router = useRouter()
+  const { id }= router.query
 
   return (
     <div>
